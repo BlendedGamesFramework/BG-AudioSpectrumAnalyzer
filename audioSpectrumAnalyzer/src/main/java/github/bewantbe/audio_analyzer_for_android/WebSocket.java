@@ -21,7 +21,7 @@ public class WebSocket {
          activity  = _activity;
          this.id_player = id_player;
         try {
-            signalSocket = IO.socket("http://144.126.216.255:3011");
+            signalSocket = IO.socket("http://164.90.156.141:3011");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
